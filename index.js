@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 //middleware
 app.use(cors(
 {
-    origin: '*',
+    origin: 'https://e-snap-note.netlify.app/',
     methods: ["POST", "GET" , "PUT" , "DELETE"],
     credentials: true
 }));
